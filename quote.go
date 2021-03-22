@@ -4,8 +4,8 @@ import "time"
 
 //Quote ...
 type Quote struct {
-	symbol string
-	bid    float64
-	ask    float64
-	time   time.Time
+	Symbol string
+	Bid    float64
+	Ask    float64
+	Time   time.Time
 }
